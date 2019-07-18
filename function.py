@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 #Required arguments are the arguments passwd to a function in correct positional order
+print "Required arguments are the arguments passwd to a function in correct positional order."
 def printme(str):
         print str
         return;
