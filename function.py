@@ -2,10 +2,10 @@
 
 #Required arguments are the arguments passwd to a function in correct positional order
 print "Required arguments are the arguments passwd to a function in correct positional order."
-def printme(str):
+def printwelcome(str):
         print str
         return;
-printme("Welcome to Python World!\n")
+printwelcome("Welcome to Python World!\n")
 
 #Keyword arguments are related to the function calls. When you use keyword arguments in a function call, the caller identifies the argument by the parameter name
 print "Keyword arguments are related to the function calls. When you use keyword arguments in a function call, the caller identifies the argument by the parameter name."
