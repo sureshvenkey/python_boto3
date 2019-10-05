@@ -5,9 +5,9 @@ C:\Users\venkatraj\Desktop\boto3>pip install awscli --user
 
 C:\Users\venkatraj\Desktop\boto3>aws configure
 
-AWS Access Key ID [None]: AKIAJZKRSWXKFQ5KDI4Q 
+AWS Access Key ID [None]: XXXXXXXXXXXXXXXXXXXXXX 
 
-AWS Secret Access Key [None]: 2DWtPkzKIo8xPM0L1XjnTNOYElHFesVIdUosLoFX 
+AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX 
 
 Default region name [None]: ap-south-1 
 
