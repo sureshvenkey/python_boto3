@@ -11,7 +11,7 @@ C:\Users\venkatraj\Desktop\boto3>
 # Code  
 Code Name | Description
 ----------|-------------
-delete_ec2_unused_vol.py | 
+delete_ec2_unused_vol.py | Deletes unused volumes i.e. unassigned with any ec2 instance with no tags.
 inventory_ec2_instances_and_volumes.py | 
 list_ec2_volumes_with_boto3_filters.py |
 list_ec2_volumes_with_default_filters.py | 
