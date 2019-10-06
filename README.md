@@ -1,5 +1,6 @@
 # Automation with boto3
 ## Getting Started
+boto3 is a python module that allows you to automat aws services, whih can be used with aws lambda to create a serverless application.
 ## Prerequestries  
 1. Python 3.7.4
 2. aws-cli
