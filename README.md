@@ -3,7 +3,9 @@
 ## Prerequestries  
 1. Python 3.7.4
 2. aws-cli
+>pip install awscli --user
 3. boto3
+>pip install boto3 --user
 ## Configuring awscli credencials
 Steps to configure aws credencials  
 C:\Users\venkatraj\Desktop\boto3>pip install awscli --user  
