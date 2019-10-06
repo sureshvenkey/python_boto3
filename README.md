@@ -1,4 +1,4 @@
-# Python-Tutorial
+# Configuring awscli credencials
 Steps to configure aws credencials  
 C:\Users\venkatraj\Desktop\boto3>pip install awscli --user  
 C:\Users\venkatraj\Desktop\boto3>aws configure  
@@ -8,4 +8,5 @@ Default region name [None]: ap-south-1
 Default output format [None]: json  
 C:\Users\venkatraj\Desktop\boto3>  
 
+# Code  
 
