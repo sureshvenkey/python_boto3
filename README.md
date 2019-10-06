@@ -13,3 +13,7 @@ Code Name | Description
 ----------|-------------
 delete_ec2_unused_vol.py | 
 inventory_ec2_instances_and_volumes.py | 
+list_ec2_volumes_with_boto3_filters.py |
+list_ec2_volumes_with_default_filters.py | 
+
+
