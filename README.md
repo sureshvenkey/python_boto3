@@ -28,7 +28,7 @@ tag_ec2_vol_csv.py | Tag volumes based on csv input file, csv file format, "Volu
 
 ### License
 GNU General Public License v3.0  
-Mail me: sureshvenkey@gmail.com  
+Mail: sureshvenkey@gmail.com  
 Website: www.sureshvenkey.com
 
 
