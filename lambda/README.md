@@ -1,23 +1,7 @@
 
 ## Automation with lambda & boto3
 ### Getting Started
-boto3 is a python module that allows you to automat aws services, which can be used with aws lambda to create a serverless application.
-### Prerequisite  
-1. Python 3.7.4
-2. aws-cli
->pip install awscli --user
-3. boto3
->pip install boto3 --user
-### Configuring awscli credencials
-Steps to configure aws credencials  
-C:\Users\venkatraj\Desktop\boto3>pip install awscli --user  
-C:\Users\venkatraj\Desktop\boto3>aws configure  
-AWS Access Key ID [None]: XXXXXXXXXXXXXXXXXXXXXX  
-AWS Secret Access Key [None]: XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  
-Default region name [None]: ap-south-1  
-Default output format [None]: json  
-C:\Users\venkatraj\Desktop\boto3>  
-
+boto3 is a python module that allows you to automat aws services, which can be used with aws lambda to create a serverless application. Here we are going to create a function to send mail alert (using sns/can also be done with ses) if the ec2 instance is stopped. sns creation is simple just by creating a topic and subscription and getting verified.
 ### Procedure for executing lambda  
 
 1. Create a IAM role for lambda ( here lambda is the Trusted entitie) with two policies attached to it "AmazonEC2FullAccess" and "AmazonSNSFullAccess". Here we have given full access, you can restrict if you wish. 
