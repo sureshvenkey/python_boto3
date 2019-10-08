@@ -10,7 +10,7 @@ def lambda_handler(event, context):
     instance_name = event['detail']['instance-id']
     message = instance_name + " Instance is in stopped state"
     print(message)
-    sns_cli.publish(TargetArn="arn:aws:sns:ap-south-1:703691942846:sureshvenkey",
+    sns_cli.publish(TargetArn="arn:XXX:XXX:XXXXXXX:XXXXXXXXX:XXXXXXXXXXXXXXXXXXX",
     Message=message,
     Subject="Ec2 Instance State")
    
