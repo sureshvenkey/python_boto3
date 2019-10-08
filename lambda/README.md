@@ -18,15 +18,16 @@ Default region name [None]: ap-south-1
 Default output format [None]: json  
 C:\Users\venkatraj\Desktop\boto3>  
 
-### Code  
+### Procedure for executing lambda  
+
+1. Create a IAM role for lambda ( here lambda is the Trusted entitie) with two policies attached to it "AmazonEC2FullAccess" and "AmazonSNSFullAccess". Here we have given full access, you can restrict if you wish. 
+2. Create a lambda function by 
+
+
 Code Name | Description
 ----------|-------------
 del_unused_vol.py | Deletes unused volumes for a specific region i.e. volume unassigned with any ec2 instance with no tags.
-del_unused_vol_region.py | Deletes unused volumes  for all region i.e. volume unassigned with any ec2 instance with no tags.
-inventory_ec2_vol_sg.py | Creates a inventory in the form of csv file in the current location for ec2 instances, volumes and security group for a specified region.
-list_ec2_volumes_with_boto3_filters.py | How to use boto3 filter for tags
-list_ec2_volumes_with_default_filters.py | How to use default filter for tags, helpfull in deleting volumes where key=value pair not matching tags.
-tag_ec2_vol_csv.py | Tag volumes based on csv input file, csv file format, "Volume_ID","Key","Value" The script check whether same key=value pair available in in volume tags and tages volumes. If same key is available with change in value, then the script modifies the tag. 
+
 
 ### License
 GNU General Public License v3.0  
