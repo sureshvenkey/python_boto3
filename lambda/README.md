@@ -26,7 +26,7 @@ C:\Users\venkatraj\Desktop\boto3>
 
 Code Name | Description
 ----------|-------------
-del_unused_vol.py | Deletes unused volumes for a specific region i.e. volume unassigned with any ec2 instance with no tags.
+email_ec2_status.py | Sends mail alert if an instance is reached to shutdown state.
 
 
 ### License
