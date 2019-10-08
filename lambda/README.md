@@ -27,9 +27,9 @@ C:\Users\venkatraj\Desktop\boto3>
 4. Once you have done save the function. 
 5. From cloudwatch ceate a "Event Pattern" event source by specifying the filtering criteria, example  
 Service Name: EC2  
-Event Type: EC2 Instance State-change Notification
-Specific state(s): stopped
-Any instance: Yes
+Event Type: EC2 Instance State-change Notification  
+Specific state(s): stopped  
+Any instance: Yes  
 6. Select the created function to crecive the events from event source by selection it from Traget.
 7. We are done we are about to receive the mail if the ec2 state is stopped.
 
