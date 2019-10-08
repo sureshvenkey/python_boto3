@@ -20,7 +20,8 @@ C:\Users\venkatraj\Desktop\boto3>
 ### Code  
 Code Name | Description
 ----------|-------------
-delete_ec2_unused_vol.py | Deletes unused volumes i.e. volume unassigned with any ec2 instance with no tags.
+del_unused_vol.py | Deletes unused volumes i.e. volume unassigned with any ec2 instance with no tags for a specific region.
+del_unused_vol_region.py | Deletes unused volumes i.e. volume unassigned with any ec2 instance with no tags for all region.
 inventory_ec2_vol_sg.py | Creates a inventory in the form of csv file in the current location for ec2 instances, volumes and security group for a specified region.
 list_ec2_volumes_with_boto3_filters.py | How to use boto3 filter for tags
 list_ec2_volumes_with_default_filters.py | How to use default filter for tags, helpfull in deleting volumes where key=value pair not matching tags.
